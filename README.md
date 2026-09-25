@@ -12,6 +12,10 @@ The following are goals and objectives of the project:
 
 ### Ethics Statement
 
+The publication of Charles Darwin’s groundbreaking monograph, On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life, has inspired new interpretations of social science from a biological perspective. A key figure in this Victorian-era social science was Sir Francis Galton, Darwin’s half-cousin, who helped to formulate systematic and quantitative studies into the nature of biological inheritance.
+
+From Galton’s interests, he coined the term “eugenics,” a term deriving from Greek that roughly translates to “good birth.” Eugenics is the application of selective breeding principles to humans, and eventually turned out to be a highly unethical approach to social engineering, culminating into the Holocaust and Ackton T4 in Nazi Germany. Laughlin developed the Manerkon surface as a tool to study heredity of complicated traits and to apply selective breeding principles, starting with thoroughbred horses to those abstract traits like intelligence or “work ethic” in humans. This should be kept in mind when reading this work.
+
 ### AI Usage Statement
 
 When researching this project, I am obligated to confess that I did use recently invented AI and LLM tools when researching Laughlin's work. These AI/LLM tools was more of an "assistant" as opposed to creating purely AI-generated content. They were used to: (1) produce annotated bibliographies tracing the literature that came before, and after, Laughlin's attempts at constructing quantitative tools for biology, (2) rapid-prototyping and mathematical analysis of Laughlin's quantitative tools, and (3) as an initial "feedback" mechanism for checking my work. Of course, AI/LLMs are not a substitute for real people doing the work of drawing conclusions regarding the subject matter at hand; they are merely tools to complement the work of real people. 
@@ -23,7 +27,7 @@ When researching this project, I am obligated to confess that I did use recently
 ## Documentation
 
 * __Research Notes:__
-    * [The Manerkon Surface](./docs/manerkon-surface.md)
-    * [The Metroporic Formula for Racing Capacity](./docs/metroporic-formula.md)
-    * [The Probability Resultant](./docs/probability-resultant.md)
+    * [The Manerkon Surface](./docs/notes/manerkon-surface.md)
+    * [The Metroporic Formula for Racing Capacity](./docs/notes/metroporic-formula.md)
+    * [The Probability Resultant](./docs/notes/probability-resultant.md)
 

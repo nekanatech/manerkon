@@ -5,7 +5,7 @@
 
 Laughlin devised what he called the _Principle of Added Functions_ for inventing "mathematical yardsticks," or a theoretical measure for complex phenomena that are composed of, or derived from, more fundamental measurements. The idea of these kinds of measuring tools can, to my knowledge, be traced back to physics. Rather than trying to directly observe a natural phenomena, scientists try to "infer" what a phenomena might look like with theoretical frameworks. 
 
-For example, mechanical force, which is measured in netwons, is the product of a physical body's mass (typically measured in kilograms) and its acceleration (typically measured in metres per squared seconds). External mechanical forces acting on a body would then be "added up," and then divided by said body's mass to produce what Laughlin may have called a "mathematical yardstick" for acceleration, as measured by \\( \displaystyle \frac{[\text{metres}]}{[\text{second}]^2} \\), which is then used to derive more fundamental measures of velocity and displacement, measured in \\( \displaystyle \frac{[\text{metres}]}{[\text{second}]}\\) and \\( \displaystyle [\text{metres}] \\) respectively. 
+For example, mechanical force, which is measured in netwons, is the product of a physical body's mass (typically measured in kilograms) and its acceleration (typically measured in metres per squared seconds). External mechanical forces acting on a body would then be "added up," and then divided by said body's mass to produce what Laughlin may have called a "mathematical yardstick" for acceleration, as measured by $ \displaystyle \frac{[\text{metres}]}{[\text{second}]^2} $, which is then used to derive more fundamental measures of velocity and displacement, measured in $ \displaystyle \frac{[\text{metres}]}{[\text{second}]} $ and $ \displaystyle [\text{metres}] $ respectively. 
 
 To test the physics theory in question, the demonstrator would take one of the derived functions, like displacement, and compare its predictions to experimental results. If the displacement function can make testable and falsifiable predictions, and if they have yet to be disproven, then the demonstrator is justified in their belief that the theoretical framework is sound and a proper description of reality. I think that Laughlin applied reasoning to measuring quality of performance, and later racing capacity, in the thoroughbred horse.
 
@@ -15,41 +15,37 @@ Laughlin put his Principle of Added Functions to work by inventing a set of "mat
 St. M.S.F._\text{s.x.} = \text{antilog} \big( [f_1(a) + c_3 ] \cdot \log d + [f_2(w) + f_3(a) + c_8] \big)
 \end{equation}
 
-where \\( \displaystyle f_1(a) = \frac{(a - c_1)^2}{c_2} \\), \\( \displaystyle f_2(w) = \frac{(w - c_4)^2}{c_5} \\), \\( \displaystyle f_3(a) = \frac{(a - c_6)^2}{c_7} \\), \\(a = \\) age in years, \\(w = \\) weight carried on the horse's back (in pounds), \\(d = \\) distance traveled in furlongs, and \\( c_1, c_2, c_3, c_4, c_5, c_6, c_7, \\) and \\(c_8\\) are constants fitting the model into empirical data. The _antilog_ is a function defined as \\( f(x) = 10^{x} \\)
+where $ \displaystyle f_1(a) = \frac{(a - c_1)^2}{c_2} $, $ \displaystyle f_2(w) = \frac{(w - c_4)^2}{c_5} $, $ \displaystyle f_3(a) = \frac{(a - c_6)^2}{c_7} $, $a = $ age in years, $w = $ weight carried on the horse's back (in pounds), $d = $ distance traveled in furlongs, and $ c_1, c_2, c_3, c_4, c_5, c_6, c_7, $ and $c_8$ are constants fitting the model into empirical data. The ``antilog`` is a function defined as $ f(x) = 10^{x} $
 
-An interesting bit of fact is that Laughlin could not express sex in terms of a ratio or interval measure, so he created three seperate St. M.S.F. formulæ to account for how sex affects racing capacity. The subscript \\(s.x.\\) denotes the biological sex of the thoroughbred horse--- with them being classified as "colts," "fillies," and "geldings."
+An interesting bit of fact is that Laughlin could not express sex in terms of a ratio or interval measure, so he created three seperate St. M.S.F. formulæ to account for how sex affects racing capacity. The subscript $s.x.$ denotes the biological sex of the thoroughbred horse--- with them being classified as "colts," "fillies," and "geldings."
 
 Laughlin presented the following formulæ for working out the St. M.S.F. in thoroughbred racehorses, by biological sex:
 
 <p style="font-size:22px;">1. For Colts:</p>
 
-\\( \displaystyle \quad \quad St. M.S.F._\text{colts} = \text{antilog} \Bigg[ \Bigg(\frac{(a - 4.25)^2}{200.2821} + 0.070331 \Bigg) \log d \\)
+$ \displaystyle \quad \quad St. M.S.F._\text{colts} = \text{antilog} \Bigg[ \Bigg(\frac{(a - 4.25)^2}{200.2821} + 0.070331 \Bigg) \log d $
 
-\\( \displaystyle \qquad \qquad + \Bigg( \frac{(w - 113)^2}{77107.0687} + \frac{(a - 4.25)^2}{-315.6272} + 1.01799 \Bigg) \Bigg] \\)
+$ \displaystyle \qquad \qquad + \Bigg( \frac{(w - 113)^2}{77107.0687} + \frac{(a - 4.25)^2}{-315.6272} + 1.01799 \Bigg) \Bigg] $
 
 <p style="font-size:22px;">2. For Fillies:</p>
 
-\\( \displaystyle \quad \quad St. M.S.F._\text{fillies} = \text{antilog} \Bigg[ \Bigg( \frac{(a - 4.00)^2}{7641.7546} + 0.92667 \Bigg) \log d\\) 
+$ \displaystyle \quad \quad St. M.S.F._\text{fillies} = \text{antilog} \Bigg[ \Bigg( \frac{(a - 4.00)^2}{7641.7546} + 0.92667 \Bigg) \log d $
 
-\\( \displaystyle \qquad \qquad + \Bigg(\frac{(w - 108)^2}{77107.0687} + \frac{(a - 4.00)^2}{1586.0428} + 1.000943 \Bigg) \Bigg] \\)
+$ \displaystyle \qquad \qquad + \Bigg(\frac{(w - 108)^2}{77107.0687} + \frac{(a - 4.00)^2}{1586.0428} + 1.000943 \Bigg) \Bigg] $
 
 <p style="font-size:22px;">3. For Geldings:</p>
 
-\\( \displaystyle \quad \quad St. M.S.F._\text{geldings} = \text{antilog} \Bigg[ \Bigg( \frac{(a - 4.50)^2}{744.5678} + 0.082613 \Bigg) \log d\\)
+$ \displaystyle \quad \quad St. M.S.F._\text{geldings} = \text{antilog} \Bigg[ \Bigg( \frac{(a - 4.50)^2}{744.5678} + 0.082613 \Bigg) \log d $
 
-\\( \displaystyle \qquad \qquad + \Bigg(\frac{(w - 112)^2}{77107.0687} + \frac{(a - 4.50)^2}{-1759.6185} + 1.008309 \Bigg) \Bigg] \\)
+$ \displaystyle \qquad \qquad + \Bigg(\frac{(w - 112)^2}{77107.0687} + \frac{(a - 4.50)^2}{-1759.6185} + 1.008309 \Bigg) \Bigg] $
 
 ## The Quality of Performance
-
-
 
 \begin{equation}
   Q. P. = \frac{\text{Standard Mean Seconds per Furlong.}}{\text{Actual Mean Seconds per Furlong.}}
 \end{equation}
 
 ### Mud Running Ability (M. R. A.)
-
-
 
 ## Proposed Experiments
 
@@ -65,15 +61,14 @@ Specifically, I want to measure the strength of the correlation \\(r\\) of quali
 
 | __Feature 1__ | __vs. Feature 2__ | __Null Hypothesis__ | __vs. Alt. Hypothesis__ |
 |---------------|-------------------|---------------------|-------------------------|
-| Q.P. | Time (sec.) | \\( H_{0} : r_{f1/f2} = 0 \\) | \\( H_{A} : r_{f1/f2} < 0 \\) |
-| Q.P. | St. M.S.F. | \\( H_{0} : r_{f1/f2} = 0 \\) | \\( H_{A} : r_{f1/f2} > 0 \\) |
- 
+| Q.P. | Time (sec.) | $ H_{0} : r_{f1/f2} = 0 $ | $ H_{A} : r_{f1/f2} < 0 $ |
+| Q.P. | St. M.S.F. | $ H_{0} : r_{f1/f2} = 0 $ | $ H_{A} : r_{f1/f2} > 0 $ |
+
+<br/>
 
 ### Q.P. versus Race Placement
 
-Quality of performance ought to corresponding to the proper rankings of horses in a race. That is, given a set of horses in a race, the horse who ranks in first place ought to have the highest Q.P., the horse who ranks in second place ought to have the second highest Q.P., the horse who ranks in last place ought to have the lowest Q.P., et cetera. The following table (adapted from \[[2, Fig. 3](https://www.jstor.org/stable/15639)\]) shows an example of what is expected of the Q.P.:
-
-<br/>
+Quality of performance ought to corresponding to the proper rankings of horses in a race. That is, given a set of horses in a race, the horse who ranks in first place ought to have the highest Q.P., the horse who ranks in second place ought to have the second highest Q.P., the horse who ranks in last place ought to have the lowest Q.P., et cetera. The following table (adapted from \[[2, Fig. 3](https://www.jstor.org/stable/15639)\]) shows an example of what is expected of the Q.P.,
 
 | __Place__ | __Name__ | __Sex__ | __Weight (lb.)__ | __Time (sec.)__ | __Q. P.__ |
 |-----------|----------|---------|------------------|-----------------|-----------|
